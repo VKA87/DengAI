@@ -26,6 +26,7 @@ def generate_features(df, functions):
 def get_features(df):
     return df
 
+
 FEATURES = [
     partial(rolling_mean_per_week, col='ndvi_se', weeks=3),
     partial(rolling_mean_per_week, col='ndvi_ne', weeks=3),
