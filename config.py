@@ -1,3 +1,3 @@
 import os
 
-DATA_PATH = os.path.join(os.environ['COMPETITIONS_PATH'], 'Deng_AI', 'DengAI_Data', 'clean_data')
+DATA_PATH = os.path.join(os.environ['COMPETITIONS_PATH'], 'DengAI', 'DengAI_data', 'data')
